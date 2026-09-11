@@ -1,0 +1,103 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Tsukimi+Rounded&display=swap');
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+
+body {
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+* {
+	font-size: 30px;
+	font-family: "M PLUS 1p", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h1 {
+	font-family: "Tsukimi Rounded", serif;
+	font-size: 60px;
+	margin: 0 0 60px;
+}
+
+select {
+	margin-bottom: 30px;
+	padding: 30px 30px;
+	border-radius: 100px;
+	appearance: none;
+	font-size: 20px;
+	background: #EEE;
+	border: #000 2px solid;
+}
+
+
+button {
+	display: block;
+	padding: 40px 80px;
+	border-radius: 1000px;
+	font-size: 30px;
+	margin: 0 auto 50px;
+	background: #222;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+}
+button:disabled {
+	opacity: .8;
+  }
+
+#nextButton {
+	aspect-ratio: 1;
+}
+
+audio {
+	margin-bottom: 50px;
+}
+
+#number {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.progress-container {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#progressBar {
+	width: 80%;
+	height: 30px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	background-color: #f0f0f0;
+	border: 2px solid #333;
+}
+
+#progressBar::-webkit-progress-bar {
+	background-color: #f0f0f0;
+	border-radius: 15px;
+}
+
+#progressBar::-webkit-progress-value {
+	background: linear-gradient(90deg, #4CAF50, #45a049);
+	border-radius: 15px;
+	transition: width 0.3s ease;
+}
+
+#progressBar::-moz-progress-bar {
+	background: linear-gradient(90deg, #4CAF50, #45a049);
+	border-radius: 15px;
+}
+
+#progressText {
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+}
