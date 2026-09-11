@@ -2,7 +2,7 @@
 
 音声付きのかるた学習アプリです。かるたと読み手を選ぶと、札をシャッフルして VOICEVOX の音声で読み上げます。PWA としてホーム画面に追加できます。
 
-公開ページ: https://dj8bit.github.io/karutakun/
+GitHub Pages: [https://dj8bit.github.io/karutakun/](https://dj8bit.github.io/karutakun/)
 
 ## 機能
 
